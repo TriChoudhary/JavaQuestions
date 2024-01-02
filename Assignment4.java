@@ -1,3 +1,4 @@
+package JavaQuestions;
 
 public class Assignment4 {
 
