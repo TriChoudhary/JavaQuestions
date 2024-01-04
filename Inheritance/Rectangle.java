@@ -1,14 +1,21 @@
 package JavaQuestions.Inheritance;
 
-public class Rectangle extends Shape{
-    int length;
+public class Rectangle extends Shape {
     int width;
-    public Rectangle(int length, int width) {
+    int height;
+    public Rectangle(int width, int height) {
         super();
-        this.length = length;
         this.width = width;
+        this.height = height;
     }
-    public void calculateArea() {
-        System.out.println("Area of Rectangle "+length*width);
+    @Override
+    public void getArea() {
+        System.out.println("Area of this rectangle is "+width*height);
+    }
+    public static void main(String[] args) {
+
+        Rectangle r=new Rectangle(10, 5);
+        r.getArea();
+
     }
 }

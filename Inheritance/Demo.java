@@ -8,9 +8,9 @@ public class Demo {
         Car c=new Car("Tata","Nexon",2023,250);
         c.drive();
     //Second Question
-        Circle cc = new Circle(5);
-        cc.calculateArea();
-        Rectangle R = new Rectangle(4,5);
-        R.calculateArea();
+      Rectangle r = new Rectangle(10,12);
+      r.getArea();
+      Circle cc = new Circle(6);
+      cc.getArea();
     }
 }
